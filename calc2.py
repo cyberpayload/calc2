@@ -6,19 +6,23 @@ while True:
     # pass in operation functions
     def addition(num1,num2):
         result = int(num1) + int(num2)
-        print(result)
+        print('\n')
+        print(str(num1) + " " + "+" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def subtraction(num1,num2):
         result = int(num1) - int(num2)
-        print(result)
+        print('\n')
+        print(str(num1) + " " + "-" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def multiplication(num1,num2):
         result = int(num1) * int(num2)
-        print(result)
+        print('\n')
+        print(str(num1) + " " + "*" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def division(num1,num2):
         result = int(num1) / int(num2)
-        print(result)
+        print('\n')
+        print(str(num1) + " " + "/" + " " + str(num2) + " " + "=" + " " + str(result))
 
 
     # display calculator menu to user

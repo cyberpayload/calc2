@@ -1,5 +1,10 @@
 # ********** A CALCULATOR WITH A LOOP **********
 
+# pass in operation functions
+def addition(num1,num2):
+    result = num1 + num2
+    print(result)
+
 # create while loop
 
 # display calculator menu to user
@@ -13,19 +18,18 @@ print('TYPE Q TO QUIT')
 operation = input()
 
 # get user numbers for the operation
-num1 = input()
-num2 = input()
+num1 = input("Enter irst number: ")
+num2 = input("Enter second number: ")
 
 # check operation variable
 if operation == '1':
-    add(num1,num2)
+    addition(num1,num2)
 elif operation == '2':
-    sub(num1,num2):
+    sub(num1,num2)
 elif operation == '3':
     mult(num1,num1)
 elif operation == '4':
     div(num1,num2)
 
-# pass in operation functions
 
 

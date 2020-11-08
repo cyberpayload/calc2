@@ -2,7 +2,7 @@
 
 # pass in operation functions
 def addition(num1,num2):
-    result = num1 + num2
+    result = int(num1) + int(num2)
     print(result)
 
 # create while loop

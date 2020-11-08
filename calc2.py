@@ -53,7 +53,7 @@ while True:
         elif operation == '2':
             subtraction(num1,num2)
         elif operation == '3':
-            multiplication(num1,num1)
+            multiplication(num1,num2)
         elif operation == '4':
             division(num1,num2)
 

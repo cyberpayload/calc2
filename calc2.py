@@ -30,7 +30,7 @@ print('TYPE Q TO QUIT')
 operation = input()
 
 # get user numbers for the operation
-num1 = input("Enter irst number: ")
+num1 = input("Enter first number: ")
 num2 = input("Enter second number: ")
 
 # check operation variable

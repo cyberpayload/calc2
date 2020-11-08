@@ -22,10 +22,18 @@ while True:
 
 
     # display calculator menu to user
+    print('\n')
+    print('***WELCOME TO CALC2***')
+    print('\n')
+    print('A simple looping calculator')
+    print('\n')
+    print('What  do you want to do?')
+    print('\n')
     print('1. ADD')
     print('2. SUBTRACT')
     print('3. MULTIPLY')
     print('4. DIVIDE')
+    print('\n')
     print('TYPE Q TO QUIT')
 
     # get user choice on operation

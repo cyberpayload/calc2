@@ -1,47 +1,53 @@
 # ********** A CALCULATOR WITH A LOOP **********
 
-# pass in operation functions
-def addition(num1,num2):
-    result = int(num1) + int(num2)
-    print(result)
-
-def subtraction(num1,num2):
-    result = int(num1) - int(num2)
-    print(result)
-
-def multiplication(num1,num2):
-    result = int(num1) * int(num2)
-    print(result)
-
-def division(num1,num2):
-    result = int(num1) / int(num2)
-    print(result)
-
 # create while loop
+while True:
 
-# display calculator menu to user
-print('1. ADD')
-print('2. SUBTRACT')
-print('3. MULTIPLY')
-print('4. DIVIDE')
-print('TYPE Q TO QUIT')
+    # pass in operation functions
+    def addition(num1,num2):
+        result = int(num1) + int(num2)
+        print(result)
 
-# get user choice on operation
-operation = input()
+    def subtraction(num1,num2):
+        result = int(num1) - int(num2)
+        print(result)
 
-# get user numbers for the operation
-num1 = input("Enter first number: ")
-num2 = input("Enter second number: ")
+    def multiplication(num1,num2):
+        result = int(num1) * int(num2)
+        print(result)
 
-# check operation variable
-if operation == '1':
-    addition(num1,num2)
-elif operation == '2':
-    subtraction(num1,num2)
-elif operation == '3':
-    multiplication(num1,num1)
-elif operation == '4':
-    division(num1,num2)
+    def division(num1,num2):
+        result = int(num1) / int(num2)
+        print(result)
+
+
+    # display calculator menu to user
+    print('1. ADD')
+    print('2. SUBTRACT')
+    print('3. MULTIPLY')
+    print('4. DIVIDE')
+    print('TYPE Q TO QUIT')
+
+    # get user choice on operation
+    operation = input()
+    # add break clause
+    if operation == 'q' or operation == 'Q':
+        break
+    else:
+
+    # get user numbers for the operation
+        num1 = input("Enter first number: ")
+        num2 = input("Enter second number: ")
+
+        # check operation variable
+        if operation == '1':
+            addition(num1,num2)
+        elif operation == '2':
+            subtraction(num1,num2)
+        elif operation == '3':
+            multiplication(num1,num1)
+        elif operation == '4':
+            division(num1,num2)
 
 
 

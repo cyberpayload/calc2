@@ -5,22 +5,22 @@ while True:
 
     # pass in operation functions
     def addition(num1,num2):
-        result = int(num1) + int(num2)
+        result = float(num1) + float(num2)
         print('\n')
         print(str(num1) + " " + "+" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def subtraction(num1,num2):
-        result = int(num1) - int(num2)
+        result = float(num1) - float(num2)
         print('\n')
         print(str(num1) + " " + "-" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def multiplication(num1,num2):
-        result = int(num1) * int(num2)
+        result = float(num1) * float(num2)
         print('\n')
         print(str(num1) + " " + "*" + " " + str(num2) + " " + "=" + " " + str(result))
 
     def division(num1,num2):
-        result = int(num1) / int(num2)
+        result = float(num1) / float(num2)
         print('\n')
         print(str(num1) + " " + "/" + " " + str(num2) + " " + "=" + " " + str(result))
 

@@ -5,6 +5,18 @@ def addition(num1,num2):
     result = int(num1) + int(num2)
     print(result)
 
+def subtraction(num1,num2):
+    result = int(num1) - int(num2)
+    print(result)
+
+def multiplication(num1,num2):
+    result = int(num1) * int(num2)
+    print(result)
+
+def division(num1,num2):
+    result = int(num1) / int(num2)
+    print(result)
+
 # create while loop
 
 # display calculator menu to user
@@ -25,11 +37,11 @@ num2 = input("Enter second number: ")
 if operation == '1':
     addition(num1,num2)
 elif operation == '2':
-    sub(num1,num2)
+    subtraction(num1,num2)
 elif operation == '3':
-    mult(num1,num1)
+    multiplication(num1,num1)
 elif operation == '4':
-    div(num1,num2)
+    division(num1,num2)
 
 
 
